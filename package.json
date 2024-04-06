@@ -1,6 +1,6 @@
 {
   "name": "rcharacter-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It generates random values; from letters to numbers and special characters. Specially useful for password generation.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
