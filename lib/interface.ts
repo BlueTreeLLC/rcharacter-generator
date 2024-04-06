@@ -3,6 +3,4 @@ export interface generatorOptions {
   uppercaseLetters?: boolean,
   numbers?: boolean,
   specialSymbols?: boolean,
-  lowercaseEñe?: boolean,
-  uppercaseEñe?: boolean,
 };
