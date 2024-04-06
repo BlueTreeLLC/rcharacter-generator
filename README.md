@@ -7,9 +7,9 @@ A generator that creates random values, including letters, numbers and special c
 You can install this package using `npm`:
 
 ```bash
-npm i random-character-generator
+npm i rcharacter-generator
 # Or with Yarn!
-yarn add random-character-generator
+yarn add rcharacter-generator
 ```
 
 ## 📕 Usage
@@ -17,7 +17,7 @@ yarn add random-character-generator
 ### Import to the desired file
 
 ```javascript
-import generator from 'random-character-generator';
+import generate from 'rcharacter-generator';
 ```
 
 This function recieves two params: a lenght param as an `int`, and an optional `object` with the different options for the generator:
@@ -39,11 +39,11 @@ The `options` param can recieve the following values:
 - specialSymbols
 
 ```javascript
-generator(10, { lowercaseLetters: true, uppercaseLetters: true });
+generate(10, { lowercaseLetters: true, uppercaseLetters: true });
 // Generates a string of lowercase and uppercase values
-generator(10, { lowercaseLetters: true, uppercaseLetters: true, numbers: true });
+generate(10, { lowercaseLetters: true, uppercaseLetters: true, numbers: true });
 // Generates a string of lowercase, uppercase and number values
-generator(10, { lowercaseLetters: true, uppercaseLetters: true, numbers: true, specialSymbols: true});
+generate(10, { lowercaseLetters: true, uppercaseLetters: true, numbers: true, specialSymbols: true});
 // Generates a string of all possible values: uppercase, lowercase, numbers and special symbols
 ```
 
