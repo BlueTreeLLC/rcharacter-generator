@@ -1,4 +1,4 @@
-# Random Character Generator
+# RCharacter Generator
 
 A generator that creates random values, including letters, numbers and special characters. You can generate passwords or special codes with this!
 
